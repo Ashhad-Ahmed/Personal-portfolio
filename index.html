@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="./download.png" class="logo" />
+
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-texts">
+          <p>Web Developer</p>
+          <h1>Hi, I'm <span>Ashhad Ahmed Siddiqi</span><br />From Pakistan</h1>
+        </div>
+
+        <div class="button">
+          <button class="resume">Download My Resume</button>
+          <a
+            href="https://www.linkedin.com/in/ashhad-ahmed-siddiqi/"
+            target="_blank"
+            ><button class="resume connect">Let's connect</button></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------about----------  -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./pic.jpeg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              I am Ashhad Ahmed Siddiqi, an undergraduate computer scientist
+              currently pursuing my degree at the prestigious University of
+              Karachi UBIT. My primary goal is to become a proficient web
+              developer, and I am committed to honing my skills and gaining new
+              experiences in the field. As a computer science student, I have
+              acquired a strong foundation in programming languages, algorithms,
+              and various technical concepts. I am particularly drawn to web
+              development due to its dynamic and ever-evolving nature, and I
+              aspire to make a significant impact in this field.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>HTML/CSS Web</span> Development<br></li>
+                <li><span>Java</span>Script<br></li>
+                <li><span>Boot</span>Strap<br></li>
+                <li><span>F</span>igma<br></li>
+                <li><span>Wordpress</span> Development<br></li>
+                <li><span>UI/UX</span> Design<br></li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2022-present</span> BSCS, Dept of CS - UBIT<br></li>
+                <li><span>2022</span> Intermediate, Govt College<br></li>
+                <li><span>2020</span> Matric, White House Grammar School<br></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="button">
+          <button class="resume">Download My Resume</button>
+          <a
+            href="https://www.linkedin.com/in/ashhad-ahmed-siddiqi/"
+            target="_blank"
+            ><button class="resume connect">Let's connect</button></a
+          >
+        </div>
+      </div>
+    </div>
+    <!----- services------------- -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+          <div class="service">
+            <h2>Web Development</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
+              dolores tenetur adipisci repellat facilis doloribus illo eum at
+              quisquam, porro, odio neque accusantium voluptatibus fuga iure,
+              assumenda aliquid animi. Dicta.
+            </p>
+          </div>
+
+          <div class="service">
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sit et
+              eum ipsa fugit saepe repellat doloribus debitis officiis aliquid.
+              Rerum sapiente ullam ab laudantium earum officiis harum quis quos?
+            </p>
+          </div>
+
+          <div class="service">
+            <h2>CMS Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+              soluta illo aperiam laboriosam, necessitatibus culpa eos,
+              explicabo, voluptates placeat autem consequatur quod! Quia tempora
+              pariatur in repellat sit aspernatur laborum?
+            </p>
+          </div>
+        </div>
+        <div class="button">
+          <button class="resume">Download My Resume</button>
+          <a
+            href="https://www.linkedin.com/in/ashhad-ahmed-siddiqi/"
+            target="_blank"
+            ><button class="resume connect">Let's connect</button></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="subtitle">My Projects</h1>
+
+        <div class="work-list">
+          <div class="work">
+            <img src="./landing page.jpeg" alt="" /><br />
+            <a href="#">Landing Page</a><br />
+            <p class="description">
+              I developed this landing page for online cricket accessories shop.
+              It is developed on HTML and CSS.
+            </p>
+          </div>
+
+          <div class="work">
+            <img
+              src="./portfolio site.png"
+              style="border: solid 1px"
+              alt=""
+            /><br />
+            <a href="#">Portfolio Webiste</a>
+            <p class="description">
+              This is another Website which is developed using HTMl and CSS.
+              This is my portfolio site and I learnt about many complex css
+              topics such as grid and flexbox
+            </p>
+          </div>
+
+          <div class="work">
+            <img src="./jk-placeholder-image.jpg" alt="" /><br />
+            <a href="#">Calculator</a>
+            <p class="description">
+              In this project, I developed a Calculator using HTML, CSS and
+              Javascript. I introduced javascript in this project to add some
+              basic functionalities.
+            </p>
+          </div>
+        </div>
+        <div class="button">
+          <button class="resume">Download My Resume</button>
+          <a
+            href="https://www.linkedin.com/in/ashhad-ahmed-siddiqi/"
+            target="_blank"
+            ><button class="resume connect">Let's connect</button></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtitle">Contact Me</h1>
+            <p>Ashhad.as10@gmail.com</p>
+            <p>+92 335 2987175</p>
+          </div>
+
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="password"
+                name="password"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button class="resume" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="footer">
+          <p>All rights reserved</p>
+          <p>Copyrights 2023</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+  </body>
+</html>
